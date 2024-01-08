@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	width:80%;
+	margin:20px auto;
+}
+table,td{
+	border-collapse:collapse;
+}
+table{
+	width:100%;
+}
+td{
+	padding:15px;
+}
+thead:first-child{
+	background-color:#1592a6;
+	color:#fff;
+}
+tbody tr:nth-child(even){
+	color:#1592a6;
+	background-color:#c7e2ed;
+}
+tbody tr:nth-child(odd){
+	color:#1592a6;
+}
+td:first-child{
+	text-align:center;
+}
